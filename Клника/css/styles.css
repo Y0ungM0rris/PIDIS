@@ -1,0 +1,112 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Белый фон */
+    color: #303C6C; /* Основной текст фиолетово-синий */
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #303C6C; /* Фиолетово-синий */
+    margin-top: 20px;
+}
+
+/* Ссылки и кнопки */
+a, .btn-primary {
+    color: #ffffff; /* Белый текст */
+    background-color: #303C6C; /* Фиолетово-синий фон */
+}
+
+a:hover, .btn-primary:hover {
+    background-color: #F4967C; /* Умеренно желто-розовый при наведении */
+}
+
+/* Навигационная панель */
+.navbar {
+    background-color: #B4DFE5; /* Пепельно-голубой фон */
+}
+
+.navbar .nav-link {
+    color: #303C6C; /* Фиолетово-синий текст */
+}
+
+.navbar .nav-link:hover {
+    color: #F4967C; /* Умеренно желто-розовый при наведении */
+}
+
+
+/* Фоновые блоки */
+.bg-primary {
+    background-color: #303C6C !important; /* Фиолетово-синий */
+}
+
+.bg-secondary {
+    background-color: #B4DFE5 !important; /* Пыльный голубой */
+    color: #303C6C; /* Фиолетово-синий текст */
+}
+
+.bg-light {
+    background-color: #ffffff !important; /* Белый фон */
+    color: #303C6C; /* Фиолетово-синий текст */
+}
+
+/* Карточки и блоки */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: #B4DFE5; /* Пыльный голубой фон */
+}
+
+.card-title {
+    color: #303C6C; /* Фиолетово-синий заголовок */
+}
+
+.card-text {
+    color: #303C6C; /* Фиолетово-синий текст */
+}
+
+/* Отзывы */
+.testimonial {
+    background-color: #F4967C; /* Умеренно желто-розовый фон */
+    color: #ffffff; /* Белый текст */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Форма */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #B4DFE5;
+}
+
+.form-control:focus {
+    border-color: #F4967C;
+    box-shadow: 0 0 5px #F4967C;
+}
+
+.btn-primary {
+    background-color: #303C6C;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #F4967C;
+}
+
+/* Слайдер */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Карта */
+#map {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
